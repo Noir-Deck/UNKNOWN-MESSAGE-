@@ -109,9 +109,17 @@
 
     <div id="private-content" class="card">
         <h2> 𝚕𝚘𝚟𝚒𝚗𝚐 𝚢𝚘𝚞 𝚏𝚛𝚘𝚖 𝚊𝚏𝚊𝚛 💕</h2>
-        <p style="color: white; line-height: 1.5;">I admired you quietly, keeping my heart in check because I knew our paths would never align. I cherished every glance, every small smile, every moment I could see you real even when I knew I could never be part of it. I chose appreciation over expectation, patience over confession, and silence over asking for more. Not because I was okay with less, but because admiration sometimes means loving without taking.
-There were moments I wished things could be different, that our worlds could overlap even a little. But deep down, I knew you could never meet me halfway, and my heart had to learn to hold that ache without breaking. Loving quietly like this doesn't scream—it lingers softly, teaching you how to carry longing without losing yourself.
-So I continue to admire without expecting. To care without hoping. To keep my feelings tucked safely inside, knowing that even from a distance, loving someone quietly can still be beautiful and still hurt.</p>
+        <p style="color: white; line-height: 1.5;"> There is something I have long kept within my heart, a truth I can no longer conceal in silence. For quite some time now, my thoughts have been quietly drawn toward you, and with each passing day, those feelings have only grown deeper and more sincere. I tried to convince myself that perhaps it was only a passing admiration, something temporary that would fade with time. Yet no matter how much I attempted to ignore it, the feeling remained, constant and undeniable.
+
+Your presence has a quiet way of bringing light into my days. The smallest moments—our conversations, your laughter, even the way you simply exist—have left a lasting impression on me. I find myself appreciating not only the happiness you bring but also the kindness, intelligence, and sincerity that define who you are as a person. These qualities are rare, and it is impossible not to admire them.
+
+I want to be honest with you, not because I expect anything in return, but because honesty is the only way I can give these feelings the respect they deserve. What I feel for you is genuine. It is not built upon fleeting emotions or momentary fascination, but upon sincere admiration and deep appreciation for who you truly are.
+
+I understand that confessions like this can sometimes place unexpected weight upon someone’s heart, and that is never my intention. My purpose is not to pressure you or create discomfort. Rather, I simply wish to express what has long been within me. Whatever your feelings may be, I will respect them with complete understanding.
+
+Still, I hope that perhaps, in some quiet corner of your thoughts, you might see the sincerity behind these words. If nothing else, I hope you know that you are deeply valued and appreciated more than you may ever realize.
+
+Thank you for being someone who unknowingly brought warmth and meaning into my life. And regardless of what the future may hold, I will always be grateful that I found the courage to tell you the truth of my heart..</p>
         <button onclick="lockSite()" style="margin-top: 20px; background: #666;">CLOSE</button>
     </div>
 
@@ -122,7 +130,7 @@ So I continue to admire without expecting. To care without hoping. To keep my fe
         function createEmoji() {
             const emoji = document.createElement('div');
             emoji.className = 'emoji';
-            emoji.innerText = '🥰';
+            emoji.innerText = '🎀💕';
             
             
             emoji.style.left = Math.random() * 100 + 'vw';
@@ -150,7 +158,7 @@ So I continue to admire without expecting. To care without hoping. To keep my fe
 
         function unlockSite() {
             const pass = document.getElementById("keyInput").value;
-            if(pass === "aisha") {
+            if(pass === "WOW") {
                 document.getElementById("login-screen").style.display = "none";
                 document.getElementById("private-content").style.display = "block";
                 song.play();
